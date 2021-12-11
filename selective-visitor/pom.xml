@@ -10,13 +10,13 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>dev.educery.patterns</groupId>
     <artifactId>selective-visitor</artifactId>
-    <version>${project.parent.version}.${build.timestamp}</version>
+    <version>2021.1201.1001</version>
     <packaging>jar</packaging>
     
     <parent>
         <groupId>dev.educery.patterns</groupId>
         <artifactId>pattern-examples</artifactId>
-        <version>1.1</version>
+        <version>2021</version>
     </parent>
 
     <dependencies>

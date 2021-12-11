@@ -10,13 +10,13 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>dev.educery.patterns</groupId>
     <artifactId>resource-manager</artifactId>
-    <version>${project.parent.version}.${build.timestamp}</version>
+    <version>2021.1201.1001</version>
     <packaging>jar</packaging>
     
     <parent>
         <groupId>dev.educery.patterns</groupId>
         <artifactId>pattern-examples</artifactId>
-        <version>1.1</version>
+        <version>2021</version>
     </parent>
 
     <dependencies>
@@ -41,12 +41,12 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
-            <version>${version.spring}</version>
+            <version>5.3.10</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-jdbc</artifactId>
-            <version>${version.spring-boot}</version>
+            <version>2.5.6</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.apache.tomcat</groupId>
@@ -61,26 +61,26 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-log4j2</artifactId>
-            <version>${version.spring-boot}</version>
+            <version>2.5.6</version>
         </dependency>
 
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
-            <version>${version.spring}</version>
+            <version>5.3.10</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
-            <version>${version.h2}</version>
+            <version>1.4.199</version>
             <scope>test</scope>
         </dependency>
 
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-dbcp2</artifactId>
-            <version>${version.commons-dbcp}</version>
+            <version>2.9.0</version>
             <scope>test</scope>
         </dependency>
         <dependency>
